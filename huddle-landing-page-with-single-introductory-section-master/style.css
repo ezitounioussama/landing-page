@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 375px) {
+  h1 {
+    font-family: "Poppins", sans-serif, cursive;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px;
+    background: url(/images/bg-desktop.svg) no-repeat hsl(257, 40%, 49%);
+    font-family: "Open Sans", sans-serif, cursive;
+    font-weight: 400;
+  }
+
+  .logo {
+    width: 100%;
+    height: 100px;
+  }
+  .logo > img {
+    width: 200px;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .image > img {
+    width: 600px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .text > p {
+    color: white;
+    margin-bottom: 20px;
+    width: 464px;
+    line-height: 25px;
+  }
+
+  button {
+    width: 30%;
+    height: 12%;
+    border-radius: 20px;
+    border: none;
+    color: hsl(257, 40%, 49%);
+    font-weight: 400;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  button:hover {
+    background-color: hsl(300, 69%, 71%);
+    cursor: pointer;
+  }
+
+  footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .social {
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+  }
+
+  i {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 30px;
+  }
+
+  i:nth-child(1) {
+    width: 39px;
+    text-align: center;
+  }
+
+  i:hover {
+    cursor: pointer;
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  h1 {
+    font-family: "Poppins", sans-serif, cursive;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px;
+    background: url(/images/bg-desktop.svg) no-repeat hsl(257, 40%, 49%);
+    font-family: "Open Sans", sans-serif, cursive;
+    font-weight: 400;
+  }
+
+  .logo {
+    width: 100%;
+    height: 100px;
+  }
+  .logo > img {
+    width: 150px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image > img {
+    width: 300px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: auto;
+    font-size: 12px;
+    margin-bottom: 70px;
+  }
+
+  .text > p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  button {
+    height: 50px;
+    width: 250px;
+    border-radius: 30px;
+    border: none;
+    color: hsl(257, 40%, 49%);
+    font-weight: 400;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  button:hover {
+    background-color: hsl(300, 69%, 71%);
+    cursor: pointer;
+  }
+
+  footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .social {
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+  }
+
+  i {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 30px;
+  }
+
+  i:nth-child(1) {
+    width: 39px;
+    text-align: center;
+  }
+
+  i:hover {
+    cursor: pointer;
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+  }
+}
+
+.name {
+  color: white;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.attribution > a {
+  color: hsl(300, 69%, 71%);
+}
